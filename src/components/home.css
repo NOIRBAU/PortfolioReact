@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap" rel="stylesheet"');
+
+.font-helloWorld {
+    font-family: 'Lovers Quarrel', cursive;
+    font-size: 100px;
+}
+.font-myName {
+    font-family: 'Special Elite', cursive;
+    font-size: 40px;
+}
+
+.language__button{
+    margin-top: 5px;
+    margin-bottom: 40px;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    width: 20%;
+}
+
+/* TYPING EFFECT */
+.font-typing__container {
+    display: inline-block;
+  }
+  .font-typing {
+    letter-spacing: 3px;
+    border-right: 3px solid; 
+    width: 420px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+      typing 3s steps(17),
+      cursor .4s step-end alternate infinite;
+      animation-delay: 2s;
+  } 
+  @keyframes cursor {
+    50% {border-color: transparent}
+  }
+  @keyframes typing {
+    from {width:0}
+  }
+
+/* SQUARES EFFECT*/
+.container__geometric {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.butterfly {
+  width: 80%;
+  height: 60%;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  z-index: 10;
+}
+.butterfly img {
+  width: 100%;
+  height: 100%;
+}
+
+.squares {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.squares div {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border: 6px solid rgba(137, 195, 235, 1);
+}
+
+.squares div:nth-child(1){
+  top:8%;
+  left: 38%;
+  animation: animate 10s linear infinite;
+}
+.squares div:nth-child(2){
+  top:75%;
+  left: 42%;
+  animation: animate 7s linear infinite;
+}
+.squares div:nth-child(3){
+  top:12%;
+  left: 11%;
+  animation: animate 9s linear infinite;
+}
+.squares div:nth-child(4){
+  top:22%;
+  left: 60%;
+  animation: animate 10s linear infinite;
+}
+.squares div:nth-child(5){
+  top:47%;
+  left: 15%;
+  animation: animate 6s linear infinite;
+}
+.squares div:nth-child(6){
+  top:50%;
+  left: 76%;
+  animation: animate 12s linear infinite;
+}
+.squares div:nth-child(7){
+  top:40%;
+  left: 42%;
+  animation: animate 15s linear infinite;
+}
+.squares div:nth-child(8){
+  top:90%;
+  left: 75%;
+  animation: animate 16s linear infinite;
+}
+.squares div:nth-child(9){
+  top:7%;
+  left: 81%;
+  animation: animate 9s linear infinite;
+}
+.squares div:nth-child(10){
+  top:84%;
+  left: 10%;
+  animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+  0%{
+    transform: scale(0) translateY(0) rotate(0);
+    opacity: 1;
+  }
+  100%{
+    transform: scale(1.3) translateY(-90px) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+
+/* MEDIA QUERIES  */
+
+/* MOBILE PHONE */
+@media only screen and (max-width: 768px) {
+.container__home {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.container__left {
+  width: 90vw;
+  height: 50%;
+  padding:0 7px;
+}
+.font-helloWorld {
+  font-size: 48px;
+}
+.font-myName{
+  font-size: 13px;
+}
+.font-typing {
+  width: 175px;
+}
+.language__button {
+  width: 30%;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+option {
+  font-size: 16px;
+}
+.container__right {
+  width: 200px;
+  height: 120px;
+  padding: 0;
+}
+.butterfly img{
+  width: 60%;
+  margin: 0 auto;
+}
+}
+
+/* TABLET IPAD PRO */
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+}
+
+/* DESKTOP */
+@media only screen and (min-width: 768px) {
+}

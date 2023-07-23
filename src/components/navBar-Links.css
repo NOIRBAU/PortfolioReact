@@ -1,0 +1,35 @@
+.swap__link {
+    background-image: linear-gradient(
+      to right,
+      rgba(137,195,235, 1),
+      rgba(137,195,235, 1) 50%,
+      #fff 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 1px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+  }
+  .swap__link:before {
+    content: '';
+    background: rgba(137,195,235, 1);
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .swap__link:hover {
+   background-position: 0;
+  }
+  
+  .swap__link:hover::before{
+    width: 100%;
+  }

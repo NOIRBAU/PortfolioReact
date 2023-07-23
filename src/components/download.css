@@ -1,0 +1,33 @@
+.load__container {
+    pointer-events: none;
+    z-index: 100;
+  }
+  .logo__container {
+    height: 250px;
+    width: 350px;
+    perspective: 400px;
+    filter: drop-shadow(0px 0px 10px rgb(137, 195, 235));
+    animation: rotar 3s linear infinite;
+  }
+  .load__logo {
+    width: 300px;
+    height: 200px;
+    background: url(../assets/logoW.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  @keyframes rotar {
+    from {
+      transform: rotateY(180deg);
+    }
+    to {
+      transform: rotateY(-180deg);
+    }
+  }
+  .loader-finish {
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 1s ease;
+    transition-delay: 2s;
+  }

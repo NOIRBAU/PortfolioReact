@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/PortfolioReact/static/css/main.ed85b79d.css",
+    "main.js": "/PortfolioReact/static/js/main.67461062.js",
+    "static/media/dailyPlanet.PNG": "/PortfolioReact/static/media/dailyPlanet.efbc3de1b026fdedc11e.PNG",
+    "static/media/miniMe.PNG": "/PortfolioReact/static/media/miniMe.aee6840fd3dabe442030.PNG",
+    "static/media/githubUsers.PNG": "/PortfolioReact/static/media/githubUsers.dd3d7483e6aad20c0eb7.PNG",
+    "static/media/dinotur.png": "/PortfolioReact/static/media/dinotur.69495fd18d7315f344f9.png",
+    "static/media/CV EN.pdf": "/PortfolioReact/static/media/CV EN.41dcf6e9babad3309b38.pdf",
+    "static/media/logo.png": "/PortfolioReact/static/media/logo.da3790b96e76cbc23e86.png",
+    "static/media/moonW.png": "/PortfolioReact/static/media/moonW.20d1d7341dfd6e83db95.png",
+    "static/media/html.png": "/PortfolioReact/static/media/html.9b674892ef5960bafca3.png",
+    "static/media/css.png": "/PortfolioReact/static/media/css.e9a4784662eba09f484c.png",
+    "static/media/react.png": "/PortfolioReact/static/media/react.e71f4c5b0c4306d65355.png",
+    "static/media/javaScript.png": "/PortfolioReact/static/media/javaScript.8618298aa7a3f221cfc1.png",
+    "static/media/GitHub-Logo.png": "/PortfolioReact/static/media/GitHub-Logo.44eee0c4a6c25b0d7347.png",
+    "index.html": "/PortfolioReact/index.html",
+    "main.ed85b79d.css.map": "/PortfolioReact/static/css/main.ed85b79d.css.map",
+    "main.67461062.js.map": "/PortfolioReact/static/js/main.67461062.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ed85b79d.css",
+    "static/js/main.67461062.js"
+  ]
+}

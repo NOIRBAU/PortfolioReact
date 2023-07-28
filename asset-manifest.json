@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PortfolioReact/static/css/main.addd55f5.css",
-    "main.js": "/PortfolioReact/static/js/main.9adfa0e4.js",
+    "main.css": "/PortfolioReact/static/css/main.5eafa7f0.css",
+    "main.js": "/PortfolioReact/static/js/main.c330f160.js",
     "static/media/dailyPlanet.PNG": "/PortfolioReact/static/media/dailyPlanet.efbc3de1b026fdedc11e.PNG",
     "static/media/miniMe.PNG": "/PortfolioReact/static/media/miniMe.aee6840fd3dabe442030.PNG",
     "static/media/githubUsers.PNG": "/PortfolioReact/static/media/githubUsers.dd3d7483e6aad20c0eb7.PNG",
@@ -15,11 +15,11 @@
     "static/media/javaScript.png": "/PortfolioReact/static/media/javaScript.8618298aa7a3f221cfc1.png",
     "static/media/GitHub-Logo.png": "/PortfolioReact/static/media/GitHub-Logo.44eee0c4a6c25b0d7347.png",
     "index.html": "/PortfolioReact/index.html",
-    "main.addd55f5.css.map": "/PortfolioReact/static/css/main.addd55f5.css.map",
-    "main.9adfa0e4.js.map": "/PortfolioReact/static/js/main.9adfa0e4.js.map"
+    "main.5eafa7f0.css.map": "/PortfolioReact/static/css/main.5eafa7f0.css.map",
+    "main.c330f160.js.map": "/PortfolioReact/static/js/main.c330f160.js.map"
   },
   "entrypoints": [
-    "static/css/main.addd55f5.css",
-    "static/js/main.9adfa0e4.js"
+    "static/css/main.5eafa7f0.css",
+    "static/js/main.c330f160.js"
   ]
 }

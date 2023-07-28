@@ -41,7 +41,7 @@ const Navbar = () => {
             </div>
 
             {/* HAMBURGUER */}
-            <div onClick={handleClick} className="md:hidden">
+            <div onClick={handleClick} className="md:hidden pr-3">
                 {!nav ? <FaBars /> : <FaTimes />} 
             </div>
             

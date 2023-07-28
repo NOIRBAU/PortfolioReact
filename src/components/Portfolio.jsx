@@ -14,14 +14,13 @@ import { FaJs} from "react-icons/fa";
 const portfolio = () => {
   return (
     <div name='portfolio' className='w-full h-[100vh]'>
-        <div className='max-w-[1200px] mx-auto p-4 flex flex-col flex-wrap content-evenly h-full'>
+        <div className='max-w-[1280px] mx-auto p-4 flex flex-wrap content-center h-full'>
             <div className='w-full'>
                 <h2>My Portfolio</h2>
-                <p className='text-2xl max-md:text-xl'>Check out some of my recent work:</p>
+                <p className='text-3xl max-md:text-xl'>Check out some of my recent work:</p>
             </div>
 
             <div class="container__cards">
-
                 <div class="card">
                     <div class="face front">
                         <img src={dailyPlanet}></img>

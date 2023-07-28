@@ -4,7 +4,7 @@ import logo from '../assets/logo.png';
 
 const Home = () => {
   return (
-    <div name='home' className='w-full h-full flex justify-between items-center my-[70px] container__home'>
+    <div name='home' className='max-w-[1280px] h-full max-md:h-[100vh] flex justify-between items-center my-[70px] container__home m-auto'>
       {/* CONTAINER-LEFT */}
       <div className='w-3/5 pl-[40px] flex flex-col justify-center container__left'>
         <p class="font-helloWorld">Hello, world!</p>

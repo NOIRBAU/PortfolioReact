@@ -17,22 +17,28 @@ const Skills = () => {
             </div>
             <div className='w-full flex flex-wrap gap-7 max-md:gap-3 justify-center'>
                 <div className='shadow-md shadow-[rgb(41,41,41)] hover:scale-110 duration-500 p-2 rounded-xl'>
-                    <img className='h-[120px] max-md:h-[60px] w-[120px] max-md:w-[60px] mx-auto' src={htmlLogo}></img>
+                    <img className='h-[120px] max-md:h-[60px] w-[120px] max-md:w-[60px] mx-auto mb-2' src={htmlLogo}></img>
+                    <p className='text-[#2E4771] rounded text-center font-bold text-lg shadow-lg shadow-slate-500 max-md:text-base'>HTML</p>
                 </div>
                 <div className='shadow-md shadow-[rgb(41,41,41)] hover:scale-110 duration-500 p-2 rounded-xl'>
-                    <img className='h-[120px] max-md:h-[60px] w-[120px] max-md:w-[60px] mx-auto' src={cssLogo}></img>
+                    <img className='h-[120px] max-md:h-[60px] w-[120px] max-md:w-[60px] mx-auto mb-2' src={cssLogo}></img>
+                    <p className='text-[#2E4771] rounded text-center font-bold text-lg shadow-lg shadow-slate-500 max-md:text-base'>CSS</p>
                 </div>
                 <div className='shadow-md shadow-[rgb(41,41,41)] hover:scale-110 duration-500 p-2 rounded-xl'>
-                    <img className='h-[120px] max-md:h-[60px] w-[120px] max-md:w-[60px] mx-auto' src={javascriptLogo}></img>
+                    <img className='h-[120px] max-md:h-[60px] w-[120px] max-md:w-[60px] mx-auto mb-2' src={javascriptLogo}></img>
+                    <p className='text-[#2E4771] rounded text-center font-bold text-lg shadow-lg shadow-slate-500 max-md:text-xs'>JAVASCRIPT</p>
                 </div>
                 <div className='shadow-md shadow-[rgb(41,41,41)] hover:scale-110 duration-500 p-2 rounded-xl'>
-                    <img className='h-[120px] max-md:h-[60px] w-[120px] max-md:w-[60px] mx-auto' src={reactLogo}></img>
+                    <img className='h-[120px] max-md:h-[60px] w-[120px] max-md:w-[60px] mx-auto mb-2' src={reactLogo}></img>
+                    <p className='text-[#2E4771] rounded text-center font-bold text-lg shadow-lg shadow-slate-500 max-md:text-base'>REACT</p>
                 </div>
                 <div className='shadow-md shadow-[rgb(41,41,41)] hover:scale-110 duration-500 p-2 rounded-xl'>
-                    <img className='h-[120px] max-md:h-[60px] w-[120px] max-md:w-[60px] mx-auto' src={tailwindLogo}></img>
+                    <img className='h-[120px] max-md:h-[60px] w-[120px] max-md:w-[60px] mx-auto mb-2' src={tailwindLogo}></img>
+                    <p className='text-[#2E4771] rounded text-center font-bold text-lg shadow-lg shadow-slate-500 max-md:text-sm'>TAILWIND</p>
                 </div>
                 <div className='shadow-md shadow-[rgb(41,41,41)] hover:scale-110 duration-500 p-2 rounded-xl'>
-                    <img className='h-[120px] max-md:h-[60px] w-[120px] max-md:w-[60px] mx-auto' src={githubLogo}></img>
+                    <img className='h-[120px] max-md:h-[60px] w-[120px] max-md:w-[60px] mx-auto mb-2' src={githubLogo}></img>
+                    <p className='text-[#2E4771] rounded text-center font-bold text-lg shadow-lg shadow-slate-500 max-md:text-base'>GITHUB</p>
                 </div>
             </div>
         </div>

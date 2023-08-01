@@ -9,7 +9,7 @@ const Navbar = () => {
     const handleClick = () => setNav(!nav)
 
     return (
-        <div className="fixed top-0 w-full h-[60px] flex justify-center items-center bg-[#000000] text-white font-weight: 700">
+        <div className="sticky top-0 w-full h-[60px] flex justify-center items-center bg-[#000000] text-white font-weight: 700 z-50">
             <div className="w-[1280px] flex justify-between items-center px-4 text-2xl">
                 <ul className="font-bold">
                     <li class="swap__link">
@@ -46,7 +46,7 @@ const Navbar = () => {
             </div>
             
             {/* MOBILE MENU */}
-            <ul className={!nav ? 'hidden' : 'absolute top-[10px] left-0 w-full h-screen bg-black bg-opacity-90 flex flex-col justify-center items-center'}>
+            <ul className={!nav ? 'hidden' : 'absolute top-[10px] left-0 w-full h-screen bg-black bg-opacity-90 flex flex-col justify-center items-center z-50'}>
                     <li className="py-2 text-2xl">
                         <Link onClick={handleClick} to='home' smooth={true} duration={500}>HOME</Link>
                     </li>
